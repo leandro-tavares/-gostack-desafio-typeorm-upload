@@ -598,6 +598,13 @@
   dependencies:
     "@types/express" "*"
 
+"@types/n-readlines@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/n-readlines/-/n-readlines-1.0.0.tgz#7c2e3a4a5fe28a6b6480632e6ba92022f0aabe6f"
+  integrity sha512-cR9EhikQVrgbPkxE8/rO6QdjhmonmmxtGe0is72Vi8piSADT5EH5posB+XEos3oBfD3YepD0YzHOsjvswtykBw==
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*":
   version "13.11.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.11.1.tgz#49a2a83df9d26daacead30d0ccc8762b128d53c7"
@@ -3627,6 +3634,11 @@ mz@^2.4.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
+n-readlines@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/n-readlines/-/n-readlines-1.0.0.tgz#c353797f216c253fdfef7e91da4e8b17c29a91a6"
+  integrity sha512-ISDqGcspVu6U3VKqtJZG1uR55SmNNF9uK0EMq1IvNVVZOui6MW6VR0+pIZhqz85ORAGp+4zW+5fJ/SE7bwEibA==
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -4053,7 +4065,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.0.0:
+pg@^8.0.2:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/pg/-/pg-8.0.2.tgz#883f869f61ab074ded386d305ad3f99056d0073e"
   integrity sha512-ngOUEDk69kLdH/k/YLT2NRIBcUiPFRcY4l51dviqn79P5qIa5jBIGIFTIGXh4OlT/6gpiCAza5a9uy08izpFQQ==
@@ -5424,10 +5436,22 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
+uuid@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
+
 uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuidv4@^6.0.7:
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/uuidv4/-/uuidv4-6.0.7.tgz#15e920848e1afbbd97b4919bc50f4f2f2278f880"
+  integrity sha512-4mpYRFNqO22EckzxPSJ/+xjn9GgO6SAqEJ33yt23Y+HZZoZOt/6l4U4iIjc86ZfxSN2fSCGGmHNb3kiACFNd1g==
+  dependencies:
+    uuid "7.0.3"
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
